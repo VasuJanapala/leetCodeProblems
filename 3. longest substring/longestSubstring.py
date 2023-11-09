@@ -37,5 +37,3 @@ if __name__ == "__main__":
 
     with open("longestOutput.json", "w") as output_file:
         json.dump(output, output_file, indent = 4)
-    # s = "aab" 
-    # sol.lengthOfLongestSubstring(s)
