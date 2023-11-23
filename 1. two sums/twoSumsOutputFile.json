@@ -1,0 +1,38 @@
+{
+    "num_1_target_1": {
+        "num_1": [
+            2,
+            7,
+            11,
+            15
+        ],
+        "target_1": 9,
+        "indices": [
+            0,
+            1
+        ]
+    },
+    "num_2_target_2": {
+        "num_2": [
+            3,
+            2,
+            4
+        ],
+        "target_2": 6,
+        "indices": [
+            1,
+            2
+        ]
+    },
+    "num_3_target_3": {
+        "num_3": [
+            3,
+            3
+        ],
+        "target_3": 6,
+        "indices": [
+            0,
+            1
+        ]
+    }
+}
