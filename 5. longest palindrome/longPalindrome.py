@@ -1,3 +1,4 @@
+import json
 
 class LPalindrome:
     def longestPalindrome(self, s: str) -> str:
@@ -29,4 +30,12 @@ if __name__ == "__main__":
     s3 = "ccc"
     s4 = "xaabacxcabaaxcabaax"
     s5 = "ac"
-    print(longPalin.longestPalindrome(s5))
+
+    outputs = {}
+
+    with open("longPalindromeInputs.json", "r") as readInputs:
+        data = json.load(readInputs)
+    for key, value in data.items():
+        outputs[key + "_output"] = longPalin.longestPalindrome(value)
+    with open("longPalindromeOutputs.json","w") as writeOutputs:
+        json.dump(outputs, writeOutputs, indent = 4)
