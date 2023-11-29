@@ -1,0 +1,42 @@
+{
+    "input1": 
+    {
+        "string": "PAYPALISHIRING",
+        "numRows": 3
+    },
+    "input2": 
+    {
+        "string": "PAYPALISHIRING",
+        "numRows": 4
+    },
+    "input3": 
+    {
+        "string": "A",
+        "numRows": 1
+    },
+    "input4": 
+    {
+        "string": "AB",
+        "numRows": 4
+    },
+    "input5":
+    {
+        "string": "ABCD",
+        "numRows": 3
+    },
+    "input6":
+    {
+        "string": "PAYPALISHIRING",
+        "numRows": 5
+    },
+    "input7":
+    {
+        "string": "Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers.",
+        "numRows": 3
+    },
+    "input8":
+    {
+        "string": "Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers.",
+        "numRows": 10
+    }
+}
