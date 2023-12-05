@@ -1,0 +1,11 @@
+{
+    "input1": "42",
+    "input2": "          42",
+    "input3": "-42",
+    "input4": "           -42",
+    "input5": "abcdefgh42ijkl",
+    "input6": "aksjncaksjcnascn42",
+    "input7": "659 aksjncaksjcnascn",
+    "input8": "",
+    "input9": "   "
+}
