@@ -28,13 +28,17 @@ class StringToInteger:
                 break
         result = sign * result
         result = max(min(result, INT_MAX),INT_MIN)
-        print(result)
+        return(result)
 
 
 if __name__ == '__main__':
     strtoint = StringToInteger()
-    # s = "words and 987"
-    # s = "4193 with words"
-    s = "   -42"
-    # s = "abc+42"
-    strtoint.myAtoi(s)
+    output = {}
+    with open("strtointInputFile.json", "r") as fread:
+        data = json.load(fread)
+    
+    for key, value in data.items():
+        output['output_'+key] = strtoint.myAtoi(value)
+    
+    with open("strtointOutputFile.json", "w") as fwrite:
+        json.dump(output, fwrite, indent = 4)
